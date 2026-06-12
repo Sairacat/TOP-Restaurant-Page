@@ -1,3 +1,5 @@
+
+
 const moduleArea = document.querySelector('.module');
 
 class person {

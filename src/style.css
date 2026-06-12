@@ -60,7 +60,7 @@ body {
     align-items: center;
     padding: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-image: url(./pic/Aoko\ Aozaki\ _\ Shizuki\ Soujuurou【Mahoutsukai\ no\ Yoru】.jpeg);
+    background-image: url(./pic/zl3uoalpme751.png);
     background-size: cover;
 }
 
@@ -219,6 +219,7 @@ nav button:hover {
   padding: 30px;
   display: grid;
   grid-template-rows: 80px repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
 
@@ -234,6 +235,7 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  grid-column: 1;
 }
 
 .position {
@@ -256,7 +258,7 @@ nav button:hover {
 
 
 .info {
-  width: 500px;
+  width: 700px;
   padding: 20px;
   margin-left: 100px;
   border-left: 8px solid #2255A2;
@@ -264,4 +266,3 @@ nav button:hover {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
